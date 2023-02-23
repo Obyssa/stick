@@ -1,0 +1,41 @@
+
+/* Loading Spinner */
+
+.spinner-wrapper{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 7s;
+}
+
+.spinner-border{
+    height: 80px;
+    width: 80px;
+}
+
+
+/* Navbar */
+
+.nav-link:hover{
+    color: darkred !important;
+}
+
+
+/* Caroussel */
+
+.c-item{
+    height: 935px;
+}
+
+.c-img{
+    box-sizing: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
